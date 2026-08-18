@@ -43,3 +43,29 @@ body > img {
     width:auto;
     height:auto;
 }
+.gallery{
+    display:grid !important;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    position:static !important;
+    width:auto !important;
+    text-align:center;
+}
+
+.card img{
+    width:100% !important;
+    height:250px;
+    object-fit:cover;
+    display:block;
+}
+
+.card span{
+    display:block;
+    padding:10px;
+    font-weight:bold;
+}
