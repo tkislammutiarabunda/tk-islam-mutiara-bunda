@@ -4,3 +4,7 @@
   max-width: 100%;
   height: auto;
 }
+body > img {
+  width: 280px !important;
+  height: auto !important;
+}
