@@ -39,10 +39,7 @@ body > img {
     display:block;
 }
 
-.gallery-item span{
-    display:block;
-    padding:10px;
-    text-align:center;
-    font-size:14px;
-    font-weight:600;
+.gallery img{
+    width:auto;
+    height:auto;
 }
